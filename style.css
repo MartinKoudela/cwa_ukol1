@@ -1,0 +1,130 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#header, nav, #hero, #experience, #notes {
+    background-color: #f8f7f1;
+}
+
+nav {
+    text-align: center;
+    padding: 40px;
+
+    .nav_link {
+        margin: 0 30px;
+        padding: 0 15px;
+        font-size: 0.8rem;
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav_link:hover {
+        color: darkgreen;
+        border-left: 1px solid darkgreen;
+        border-right: 1px solid darkgreen;
+        border-radius: 25px;
+    }
+}
+
+#page_logo {
+    float: left;
+    margin-left: 70px;
+    margin-top: -17px;
+
+    a {
+        text-decoration: none;
+        font-size: 2rem;
+        color: black;
+        font-family: brush script, cursive;
+
+    }
+
+}
+
+#phone_number {
+    float: right;
+    font-size: 0.8rem;
+    margin-right: 20px;
+}
+
+#phone_link {
+    float: right;
+    border-radius: 50%;
+    background-color: white;
+    padding: 8px;
+    margin-right: 30px;
+    margin-top: -15px;
+
+    img {
+        filter: invert(30%) sepia(90%) saturate(400%) hue-rotate(120deg);
+    }
+
+}
+
+
+#hero {
+    min-height: 80vh;
+    padding: 50px 100px;
+
+    #hero_text {
+        #title_hero {
+            float: left;
+            font-size: 4rem;
+            font-weight: 700;
+        }
+
+        #quote_hero {
+            float: right;
+            font-size: 1rem;
+            font-weight: lighter;
+            margin-top: 65px;
+            line-height: 1.9rem;
+        }
+    }
+
+    #email_hero {
+        font-size: 1rem;
+        font-weight: lighter;
+        margin-top: 300px;
+
+        a {
+            color: orangered;
+
+        }
+    }
+
+    #hero_img {
+        text-align: center;
+        margin-top: -340px;
+        position: relative;
+
+    }
+
+    #experience_hero {
+        font-size: 1rem;
+        font-weight: lighter;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: -170px;
+    }
+
+    #number_span {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    #certifications_hero {
+        float: right;
+        margin-top: -180px;
+        text-align: center;
+        #tree_img {
+            margin: 20px;
+        }
+    }
+
+
+}
