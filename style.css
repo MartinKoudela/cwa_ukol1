@@ -98,7 +98,7 @@ nav {
 
     #hero_img {
         text-align: center;
-        margin-top: -340px;
+        margin-top: -320px;
         position: relative;
 
     }
@@ -125,6 +125,4 @@ nav {
             margin: 20px;
         }
     }
-
-
 }
