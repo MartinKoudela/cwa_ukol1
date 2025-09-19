@@ -99,7 +99,6 @@ nav {
     #hero_img {
         text-align: center;
         margin-top: -320px;
-        position: relative;
 
     }
 
@@ -123,6 +122,48 @@ nav {
         text-align: center;
         #tree_img {
             margin: 20px;
+        }
+    }
+}
+
+#services {
+    min-height: 70vh;
+    padding: 160px 230px;
+    #services_cards {
+        display: flex;
+        flex-direction: column;
+        float: left;
+
+    }
+    #services_text {
+        display: flex;
+        flex-direction: column;
+        float: right;
+        h1 {
+            font-size: 4rem;
+             font-weight: 700;
+        }
+        p {
+            line-height: 2.5rem;
+            font-size: 1rem;
+            font-weight: lighter;
+        }
+        #services_number_txt {
+            span {
+                font-size: 4rem;
+                font-weight: 700;
+            }
+            p {
+                font-size: 1rem;
+                font-weight: lighter;
+            }
+            #projects_number {
+                float: left;
+            }
+            #clients_number {
+                float: right;
+                margin-right: 70px;
+            }
         }
     }
 }
