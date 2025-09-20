@@ -48,7 +48,9 @@ nav {
     float: right;
     font-size: 0.8rem;
     margin-right: 20px;
+    margin-top: 4px;
 }
+
 #phone_number:hover {
     transform: scale(1.1);
     transition: ease-in-out 0.3s;
@@ -60,12 +62,15 @@ nav {
     float: right;
     border-radius: 50%;
     background-color: white;
-    padding: 8px;
-    margin-right: 30px;
     margin-top: -14px;
+    margin-right: 30px;
+    padding: 8px;
+    /* Here is the issue fixed */
     height: 30px;
     width: 30px;
-        img {
+    /* End */
+
+    img {
         filter: invert(30%) sepia(90%) saturate(400%) hue-rotate(120deg);
     }
 }
@@ -74,6 +79,7 @@ nav {
     transform: scale(1.1);
     transition: ease-in-out 0.3s;
 }
+
 #hero {
     min-height: 78vh;
     padding: 50px 100px;
@@ -164,6 +170,7 @@ nav {
                 margin-top: -5px;
 
             }
+
             #projects_web {
                 font-weight: lighter;
                 font-size: 1rem;
@@ -222,6 +229,7 @@ nav {
             }
         }
     }
+
     .service_card:hover {
         box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
     }
