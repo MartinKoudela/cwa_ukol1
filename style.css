@@ -65,10 +65,8 @@ nav {
     margin-top: -14px;
     margin-right: 30px;
     padding: 8px;
-    /* Here is the issue fixed */
     height: 30px;
     width: 30px;
-    /* End */
 
     img {
         filter: invert(30%) sepia(90%) saturate(400%) hue-rotate(120deg);
@@ -272,3 +270,84 @@ nav {
         }
     }
 }
+
+#experience {
+    min-height: 80vh;
+    padding: 100px 150px;
+
+    #exp_history {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        gap: 70px;
+        margin-top: 40px;
+        line-height: 50px;
+        padding: 25px;
+        border-radius: 25px;
+
+        span {
+            font-size: 1rem;
+            font-weight: lighter;
+        }
+    }
+
+    #exp_employment {
+        display: flex;
+        flex-direction: column;
+        float: right;
+        margin-top: 20px;
+        gap: 40px;
+        line-height: 40px;
+        padding: 25px;
+        border-radius: 25px;
+
+
+    }
+
+    #title_exp {
+        font-size: 4rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .job_card {
+        padding: 15px;
+    }
+
+    .exp_card {
+        padding: 15px;
+    }
+}
+
+.exp_card:hover {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+    transition: ease-in-out 0.3s;
+    transform: scale(1.05);
+    border-radius: 25px;
+}
+
+.job_card:hover {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+    transition: ease-in-out 0.3s;
+    transform: scale(1.05);
+    border-radius: 25px;
+}
+
+#exp_employment:hover {
+    background-color: rgba(0, 100, 0, 0.08);
+    transition: ease-in-out 0.3s;
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 25px;
+}
+
+#exp_history:hover {
+    background-color: rgba(0, 100, 0, 0.08);
+    transition: ease-in-out 0.3s;
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 25px;
+}
+
+.
+
