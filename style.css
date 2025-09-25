@@ -349,5 +349,55 @@ nav {
     border-radius: 25px;
 }
 
-.
+#works {
+    min-height: 80vh;
+    padding: 100px 10px;
+
+    #text_works {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        h1 {
+            padding-right: 110px;
+            font-size: 3rem;
+            margin-bottom: 20px;
+
+        }
+    }
+
+    a {
+        color: orangered;
+    }
+}
+
+#img_works {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    img {
+        height: 450px;
+        margin-top: 120px;
+        border-radius: 15px;
+    }
+    img:hover {
+        transform: scale(1.05);
+        transition: ease-in-out 0.3s;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+    #img1 {
+        background-color: gold;
+    }
+    #img2 {
+        background-color: darkgreen;
+    }
+    #img3 {
+        background-color: mintcream;
+    }
+
+    .card {
+    }
+}
+
 
